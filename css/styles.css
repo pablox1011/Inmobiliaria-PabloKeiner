@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-  
 }
 
 body{
@@ -11,7 +10,6 @@ body{
   grid-area: body;
   background-image: linear-gradient(to bottom, #f8edeb, #fae9e5, #fbe6de, #fbe2d7, #fbdfcf, #fcdcc8, #fcd9c0, #fbd7b9, #fcd3b1, #fdd0a9, #fdcca2, #fec89a);
   min-height: 100vh;
-  
 }
 
 header{
@@ -186,10 +184,14 @@ footer{
 }
 .card{
   margin: 0 .5em;
-
+  margin-bottom: 15px;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 .image-wrapped img{
   width: 100%;
   height: 300px;
 }
+
 
